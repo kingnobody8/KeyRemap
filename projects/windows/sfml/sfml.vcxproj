@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Fast Debug|Win32">
+      <Configuration>Fast Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Fast Debug|x64">
+      <Configuration>Fast Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\BlendMode.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\CircleShape.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Color.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\ConvexShape.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Drawable.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Export.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Font.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLCheck.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLExtensions.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLLoader.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Glsl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Glyph.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Image.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Rect.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RectangleShape.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderStates.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTarget.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTexture.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImplDefault.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImplFBO.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderWindow.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Shader.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Shape.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Sprite.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Text.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Texture.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\TextureSaver.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Transform.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Transformable.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Vertex.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\VertexArray.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\VertexBuffer.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Graphics\View.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Clock.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Err.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Export.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\FileInputStream.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\InputStream.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Lock.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\MemoryInputStream.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Mutex.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\NativeActivity.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\NonCopyable.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Sleep.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\String.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Thread.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\ThreadLocal.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Time.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Utf.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Vector2.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Vector3.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Vector4.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ClockImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\MutexImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\SleepImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ThreadImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ThreadLocalImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Clipboard.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\ClipboardImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Context.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\ContextSettings.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Cursor.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\CursorImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\EGLCheck.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\EglContext.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Event.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Export.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\GlContext.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\GlResource.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\InputImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Joystick.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\JoystickImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\JoystickManager.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Keyboard.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Mouse.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Sensor.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\SensorImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\SensorManager.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Touch.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\VideoMode.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\VideoModeImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Vulkan.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\ClipboardImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\CursorImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\InputImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\JoystickImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\SensorImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\VulkanImplWin32.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WglContext.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WglExtensions.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WindowImplWin32.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\Window.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowBase.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowHandle.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowImpl.hpp" />
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowStyle.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\BlendMode.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\CircleShape.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Color.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\ConvexShape.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Font.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLCheck.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLExtensions.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLLoader.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Glsl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Image.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\ImageLoader.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RectangleShape.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderStates.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTexture.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImplDefault.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImplFBO.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderWindow.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Shader.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Shape.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Sprite.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Text.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Texture.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\TextureSaver.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Transform.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Transformable.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Vertex.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\VertexArray.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Graphics\View.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Clock.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Err.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\FileInputStream.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Lock.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\MemoryInputStream.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Mutex.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Sleep.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\String.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Thread.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\ThreadLocal.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Time.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ClockImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\MutexImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\SleepImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ThreadImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ThreadLocalImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Clipboard.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Context.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Cursor.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\EGLCheck.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\EglContext.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\GlContext.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\GlResource.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Joystick.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\JoystickManager.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Keyboard.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Mouse.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Sensor.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\SensorManager.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Touch.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\VideoMode.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Vulkan.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\ClipboardImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\CursorImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\InputImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\JoystickImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\SensorImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\VideoModeImpl.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\VulkanImplWin32.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WglContext.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WglExtensions.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WindowImplWin32.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\Window.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\WindowBase.cpp" />
+    <ClCompile Include="..\..\..\source\sfml\Window\WindowImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\source\sfml\Graphics\Glsl.inl" />
+    <None Include="..\..\..\source\sfml\Graphics\Rect.inl" />
+    <None Include="..\..\..\source\sfml\System\String.inl" />
+    <None Include="..\..\..\source\sfml\System\Thread.inl" />
+    <None Include="..\..\..\source\sfml\System\ThreadLocalPtr.inl" />
+    <None Include="..\..\..\source\sfml\System\Utf.inl" />
+    <None Include="..\..\..\source\sfml\System\Vector2.inl" />
+    <None Include="..\..\..\source\sfml\System\Vector3.inl" />
+    <None Include="..\..\..\source\sfml\System\Vector4.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0CD957D9-9B91-4B4A-B8E1-C4FC583CFA0F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sfml</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_debug.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_debug.props" />
+    <Import Project="..\properties\common.props" />
+    <Import Project="..\properties\fast_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_release.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_debug.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_debug.props" />
+    <Import Project="..\properties\common.props" />
+    <Import Project="..\properties\fast_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_release.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Fast Debug|Win32">
+      <Configuration>Fast Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Fast Debug|x64">
+      <Configuration>Fast Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imconfig.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\imgui.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="..\..\..\source\third_party\imgui\misc\freetype\imgui_freetype.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\allocators.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\document.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\encodedstream.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\encodings.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\error\en.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\error\error.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\filereadstream.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\filewritestream.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\fwd.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\clzll.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\itoa.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\meta.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\regex.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\strtod.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\swap.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\memorybuffer.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\memorystream.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\pointer.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\reader.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\schema.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\stream.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\writer.h" />
+    <ClInclude Include="..\..\..\source\third_party\tinyxml2\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\freetype\imgui_freetype.cpp" />
+    <ClCompile Include="..\..\..\source\third_party\tinyxml2\tinyxml2.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8281145C-8CB3-4F6D-BE65-0BE60B8C5531}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>third_party</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_debug.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_debug.props" />
+    <Import Project="..\properties\common.props" />
+    <Import Project="..\properties\fast_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win32_release.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_debug.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_debug.props" />
+    <Import Project="..\properties\common.props" />
+    <Import Project="..\properties\fast_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\properties\win64_release.props" />
+    <Import Project="..\properties\common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Fast Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

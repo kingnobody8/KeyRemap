@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{9c3c4e4c-5425-4c30-a0a7-dd5dbc879615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{bf76cd46-94ed-4296-b168-4551beacbcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Win32">
+      <UniqueIdentifier>{1de3d649-32c4-4145-a5c1-9dc493f26cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{aa5adda3-fb2c-49f5-97ec-de7feb1cbf9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Win32">
+      <UniqueIdentifier>{08d9f060-d084-4b33-ac75-e1a203367e09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Export.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Font.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLCheck.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLExtensions.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\GLLoader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Glsl.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Glyph.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Image.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\ImageLoader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\PrimitiveType.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Rect.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RectangleShape.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderStates.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTarget.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTexture.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImpl.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImplDefault.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderTextureImplFBO.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\RenderWindow.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Shader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Shape.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Sprite.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Text.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Texture.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\TextureSaver.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Transform.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Transformable.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Vertex.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\VertexArray.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\VertexBuffer.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\View.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\BlendMode.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\CircleShape.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Color.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\ConvexShape.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Graphics\Drawable.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Export.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\FileInputStream.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\InputStream.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Lock.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\MemoryInputStream.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Mutex.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\NativeActivity.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\NonCopyable.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Sleep.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\String.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Thread.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\ThreadLocal.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\ThreadLocalPtr.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Time.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Utf.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Vector2.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Vector3.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Vector4.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Clock.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Err.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ThreadImpl.hpp">
+      <Filter>System\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ThreadLocalImpl.hpp">
+      <Filter>System\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\ClockImpl.hpp">
+      <Filter>System\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\MutexImpl.hpp">
+      <Filter>System\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\System\Win32\SleepImpl.hpp">
+      <Filter>System\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Context.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\ContextSettings.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Cursor.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\CursorImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\EGLCheck.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\EglContext.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Event.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Export.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\GlContext.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\GlResource.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\InputImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Joystick.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\JoystickImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\JoystickManager.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Keyboard.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Mouse.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Sensor.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\SensorImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\SensorManager.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Touch.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\VideoMode.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\VideoModeImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowHandle.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowStyle.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Clipboard.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\ClipboardImpl.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\JoystickImpl.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\SensorImpl.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WglContext.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WglExtensions.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\WindowImplWin32.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\ClipboardImpl.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\CursorImpl.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\InputImpl.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Vulkan.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\WindowBase.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\sfml\Window\Win32\VulkanImplWin32.hpp">
+      <Filter>Window\Win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Font.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLCheck.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLExtensions.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\GLLoader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Glsl.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Image.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\ImageLoader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RectangleShape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderStates.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTarget.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImpl.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImplDefault.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderTextureImplFBO.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\RenderWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Shape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Text.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\TextureSaver.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Transform.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Transformable.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Vertex.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\VertexArray.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\VertexBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\View.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\BlendMode.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\CircleShape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\Color.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Graphics\ConvexShape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\FileInputStream.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Lock.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\MemoryInputStream.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Mutex.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Sleep.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\String.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Thread.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\ThreadLocal.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Time.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Clock.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Err.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ThreadImpl.cpp">
+      <Filter>System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ThreadLocalImpl.cpp">
+      <Filter>System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\ClockImpl.cpp">
+      <Filter>System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\MutexImpl.cpp">
+      <Filter>System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\System\Win32\SleepImpl.cpp">
+      <Filter>System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Context.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Cursor.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\EGLCheck.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\EglContext.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\GlContext.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\GlResource.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Joystick.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\JoystickManager.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Keyboard.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Mouse.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Sensor.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\SensorManager.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Touch.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\VideoMode.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\WindowImpl.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Clipboard.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\SensorImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\VideoModeImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WglContext.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WglExtensions.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\WindowImplWin32.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\ClipboardImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\CursorImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\InputImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\JoystickImpl.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Vulkan.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\WindowBase.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\sfml\Window\Win32\VulkanImplWin32.cpp">
+      <Filter>Window\Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\source\sfml\Graphics\Glsl.inl">
+      <Filter>Graphics</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\Graphics\Rect.inl">
+      <Filter>Graphics</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\String.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\Thread.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\ThreadLocalPtr.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\Utf.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\Vector2.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\Vector3.inl">
+      <Filter>System</Filter>
+    </None>
+    <None Include="..\..\..\source\sfml\System\Vector4.inl">
+      <Filter>System</Filter>
+    </None>
+  </ItemGroup>
+</Project>

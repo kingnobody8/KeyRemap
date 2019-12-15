@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{db308353-caf9-411a-86f4-6e266c63a9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc">
+      <UniqueIdentifier>{23045f97-9481-439b-a703-f2851dc775fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc\cpp">
+      <UniqueIdentifier>{e88da7ea-286b-4feb-9532-21d1dad55002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc\fonts">
+      <UniqueIdentifier>{268c044e-421e-4189-83b7-addb0f03e186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\misc\freetype">
+      <UniqueIdentifier>{00b8fb46-9ce9-4532-95ee-be50253c91f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml2">
+      <UniqueIdentifier>{8210b60c-759e-4e7c-a29c-0d1771a0753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson">
+      <UniqueIdentifier>{e5f1002c-8a01-4c3d-a7c5-2fb5e6f546c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\error">
+      <UniqueIdentifier>{a4cecc72-1cbb-4a50-9e80-73a22bbfddbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\internal">
+      <UniqueIdentifier>{d3670237-f099-4648-88f5-8faa83f3c8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\msinttypes">
+      <UniqueIdentifier>{34e08e36-3c98-441a-9973-f2a1ed2d2665}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>imgui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\imgui\misc\freetype\imgui_freetype.h">
+      <Filter>imgui\misc\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\tinyxml2\tinyxml2.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\error\en.h">
+      <Filter>rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\error\error.h">
+      <Filter>rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\msinttypes\inttypes.h">
+      <Filter>rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\msinttypes\stdint.h">
+      <Filter>rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\rapidjson.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\reader.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\schema.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\stream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\stringbuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\writer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\allocators.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\cursorstreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\document.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\encodedstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\encodings.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\filereadstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\filewritestream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\fwd.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\istreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\memorybuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\memorystream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\ostreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\pointer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\prettywriter.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\ieee754.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\itoa.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\meta.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\pow10.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\regex.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\stack.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\strfunc.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\strtod.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\swap.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\biginteger.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\clzll.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\diyfp.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\third_party\rapidjson\internal\dtoa.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>imgui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp">
+      <Filter>imgui\misc\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\imgui\misc\freetype\imgui_freetype.cpp">
+      <Filter>imgui\misc\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\third_party\tinyxml2\tinyxml2.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
